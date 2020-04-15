@@ -14,4 +14,7 @@ FOUNDATION_EXPORT const unsigned char MyTestSDKVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <MyTestSDK/PublicHeader.h>
 
-#import "TemplateManger.h"
+
+#import <MyTestSDK/TemplateManger.h>
+#import <MyTestSDK/HTTPNetworkTool.h>
+#import <MyTestSDK/UIButtonEnlarge.h>

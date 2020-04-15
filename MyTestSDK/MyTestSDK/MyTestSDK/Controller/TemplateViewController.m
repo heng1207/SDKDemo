@@ -7,6 +7,7 @@
 #import "TemplateViewController.h"
 #import "TemplateView.h"
 #import "TemplateLogic.h"
+#import "AFNetworking.h"
 //Frameworks
 
 //Models
@@ -38,6 +39,7 @@
 }
 #pragma mark TemplateViewDelegate
 -(void)requestData{
+    
     if (self.templateLogic) {
         [self.templateLogic sengGetDataRequestWithComplete:^(BOOL isOK) {
             if (isOK) {

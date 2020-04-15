@@ -2,9 +2,7 @@
 //  TemplateManger.h
 //  SimpleSDK
 //
-//  Created by heng on 2020/4/13.
-//  Copyright © 2020 heng. All rights reserved.
-//
+
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
