@@ -27,7 +27,11 @@
     if (self) {
         self.backgroundColor = [UIColor whiteColor];
         [self addSubview:self.requestBtn];
-        
+        [self.requestBtn mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.left.top.mas_equalTo(10);
+            make.width.mas_equalTo(100);
+            make.height.mas_equalTo(30);
+        }];
     }
     return self;
 }
@@ -47,7 +51,6 @@
     
     if (!_requestBtn) {
         _requestBtn = [[UIButton alloc]init];
-        _requestBtn.frame = CGRectMake(10, 10, 80, 30);
         _requestBtn.backgroundColor = [UIColor yellowColor];
         [_requestBtn setTitle:@"请求数据" forState:UIControlStateNormal];
         [_requestBtn setTitleColor:[UIColor greenColor] forState:UIControlStateNormal];
