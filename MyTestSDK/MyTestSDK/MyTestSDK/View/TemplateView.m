@@ -5,7 +5,7 @@
 
 
 #import "TemplateView.h"
-#import "Masonry.h"
+
 //Frameworks
 
 //Models

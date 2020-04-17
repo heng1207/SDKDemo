@@ -24,7 +24,7 @@
 		0915B02524473D4300D6094D /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 0915B01124473D4300D6094D /* AFURLRequestSerialization.m */; };
 		0915B02624473D4300D6094D /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0915B01324473D4300D6094D /* AFNetworkReachabilityManager.m */; };
 		0915B02724473D4300D6094D /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0915B01424473D4300D6094D /* AFSecurityPolicy.m */; };
-		0915B19524475D6B00D6094D /* MyTestSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0915B19424475D6B00D6094D /* MyTestSDK.framework */; };
+		094090E824498A62003054E4 /* MyTestSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094090E724498A62003054E4 /* MyTestSDK.framework */; };
 		09E176462445C7B900DF283E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E176452445C7B900DF283E /* AppDelegate.m */; };
 		09E1764C2445C7B900DF283E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E1764B2445C7B900DF283E /* ViewController.m */; };
 		09E176512445C7BA00DF283E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09E176502445C7BA00DF283E /* Assets.xcassets */; };
@@ -69,7 +69,7 @@
 		0915B01424473D4300D6094D /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
 		0915B01524473D4300D6094D /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFCompatibilityMacros.h; sourceTree = "<group>"; };
 		0915B01624473D4300D6094D /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
-		0915B19424475D6B00D6094D /* MyTestSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MyTestSDK.framework; sourceTree = "<group>"; };
+		094090E724498A62003054E4 /* MyTestSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MyTestSDK.framework; sourceTree = "<group>"; };
 		09E176412445C7B900DF283E /* MyTestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09E176442445C7B900DF283E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		09E176452445C7B900DF283E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -86,7 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0915B19524475D6B00D6094D /* MyTestSDK.framework in Frameworks */,
+				094090E824498A62003054E4 /* MyTestSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,7 +171,7 @@
 		09E176432445C7B900DF283E /* MyTestDemo */ = {
 			isa = PBXGroup;
 			children = (
-				0915B19424475D6B00D6094D /* MyTestSDK.framework */,
+				094090E724498A62003054E4 /* MyTestSDK.framework */,
 				09E176442445C7B900DF283E /* AppDelegate.h */,
 				09E176452445C7B900DF283E /* AppDelegate.m */,
 				09E1764A2445C7B900DF283E /* ViewController.h */,
