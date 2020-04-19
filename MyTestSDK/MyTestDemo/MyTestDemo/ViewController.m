@@ -25,13 +25,6 @@
     [super viewDidLoad];    
     self.view.backgroundColor = [UIColor redColor];
     
-    NSString *url = @"http://v.juhe.cn/toutiao/index?type=top&key=7757713dcf58a78ec3212b8429af118b";
-    [HTTPNetworkTool Get:url andParams:nil success:^(id  _Nonnull responseObject) {
-        NSLog(@"%@",responseObject);
-    } failure:^(NSError * _Nonnull error) {
-        NSLog(@"%@",error);
-    }];
-    
 
     
     // Do any additional setup after loading the view.
